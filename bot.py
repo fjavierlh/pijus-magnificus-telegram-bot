@@ -1,3 +1,5 @@
+import os
+import auth
 import logging
 from telegram.ext import Updater
 
@@ -12,8 +14,6 @@ logging.basicConfig(
 
 logger = logging.getLogger('Pijus Magnificus')
 
-logger.debug('Mensaje para darnos información a l@s desarrollador@s.')
-logger.info('Para información del funcionamiento normal del progama.')
-logger.warning('Algo no ha ido como esperábamos, habrá que echarle un ojo.')
-logger.error('Algo está dando problemas chungos.')
-logger.critical('Esto ha petado.')
+#updater = Updater(os.environ['TOKEN'])
+#dispatcher = updater.dispatcher
+print(os.environ['TOKEN'])
