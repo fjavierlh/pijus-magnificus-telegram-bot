@@ -1,5 +1,6 @@
 #Telegram token
 auth.py
+bot.log
 
 #Virtual enviroment
 .evn
